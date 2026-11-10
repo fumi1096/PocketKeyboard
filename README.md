@@ -14,6 +14,14 @@
 
 ---
 
+## 截图
+
+| 键盘 | 触控板 | 虚拟手柄（实验性） |
+|---|---|---|
+| ![键盘](docs/screenshots/keyboard.png) | ![触控板](docs/screenshots/trackpad.png) | ![手柄](docs/screenshots/gamepad.png) |
+
+> 截图使用自定义图片背景；默认是深色纯色皮肤。
+
 ## 功能
 
 - **104 键全键盘**：Ctrl / Alt / Shift / Win / F1–F12 / 方向键 / 小键盘 / 编辑键一应俱全
@@ -168,9 +176,10 @@ app/src/main/java/com/zhangshang/keyboard/
 ## 许可证与素材声明
 
 - 代码以 [MIT License](LICENSE) 开源。
-- `icon/app_icon.jpg` 及其派生图标（`res/mipmap-*`）为项目发起时使用的插画素材，
-  **版权归原作者所有，不包含在 MIT 许可内**。若要公开分发 Release，请确认已获得授权，
-  或替换为自有/CC0 素材后重新运行 `tools/make-icons.ps1` 生成图标。
+- `icon/app_icon.jpg` 及派生图标（`res/mipmap-*`）为 AI 生成插画（用户提供，已裁掉生成水印），
+  **版权与商用/分发授权由使用者自行确认，不包含在 MIT 许可内**。
+  若要公开发布 Release，请确认你有权分发该素材；否则替换为自有/CC0 素材后重新生成图标
+  （见 [icon/README.md](icon/README.md)）。
 
 ## 免责声明
 
